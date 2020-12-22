@@ -1,0 +1,5 @@
+X:0
+M:3/4
+K:maj
+=B =E =G | =D =D =C =F | =A =C =E =F =e =D =D =c | =B, =c | =D =c =B 3 =G :| /2 | =C | =e > =E =E =G =c =D =G, |: =D /2 =C =E =c | =c /2 /2 2 =E =A =E K:maj | =E =D :| =C =B =d =c =G =B =c /2 =e =G =D =E =G 2 =C =G =A =A =G =D =B =D =F | =c =D =c =c =A | =F =d =e =A =G | =G 3 /2 =d =C =D =C | =c |: =f =c =a =A =c =D =c :| =f =G | 4 =G 2 =F /2 =G =F =g =e =c =d =G =G =C /2 =d =c =e =g |1 =c =b | =B =E =E =c |: =c =c =C | |: > =c =F =c :| =c' =E =c | =A =c =A =B | | /2 =D =G =B 2 =C | | =C /2 =c | 2 | =d =f :| =B =e =F 4 =c | =G /2 /2 =c =D =F =F | z ^G =A =F =F =G | > =e =F | =C > | =C =D /2 =G, | =D =A =e =c - | =F | | > z 2 ^A, =E ^G =F | =G /2 | /2 =D =A 2 =C | =D =E =E =E =d =C =E /2 =E =E =F =c =B, =F =c =D | =E =A | =D | =E =D /2 |1 =A =A =A z =c =G =G =F =E /2 /2 =G | =A =G K:maj =B =d =D | =C /2 /2 =c | =C =C =G |2 =D /2 =A 2 | =D =C /2 /2 | =A =E /2 =B =G =c /2 =D =C =E =G ^c M:9/8 2 :| =c /2 =A | =c =E =A /2 | =d =c =B =A =C =D =C =C =F =A /2 =D /2 /2 :| =d =d | | ^A |2 | /2 =G | 2 =D | =C
+

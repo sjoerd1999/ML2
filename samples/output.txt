@@ -1,0 +1,5 @@
+X:0
+M:3/4
+K:maj
+M:2/4 [ ^c K:maj =c' =c' =e =d K:maj /2 =D, =C =D ^G, =F =F 6 8 =B - z 3/2 - |2 3 ^G ] K:mix K:maj =d' z | =e [ =C =A, 6 ^d ^F M:6/8 =C, =f =G M:9/8 ^f =A 6 K:mix M:12/8 =F =C =g =e' 5 K:maj :| ^g ] =d' 3/4 =f' > =D |2 K:dor M:12/8 3/2 4 ^C =c =g ] =F, =A, /2 ^c =g ^C |2 =C, =d 2 ^F, =e 6 3/4 ^c ^a M:3/4 =b =C, ^D =a =G, =g =f 8 =B =D, ^d =G ^a 6 K:mix M:9/8 ^f =B, =a ^A ^C - =c' :| 4 ^a =d 4 =F 5 M:12/8 4 5 3/4 =C, ^A =B =A, <s> =F, K:mix =E, ^A =C, ^F, =e' 3/4 K:mix /2 |2 =C =C ^f =f - K:dor =G z =f =d' K:dor M:9/8
+
