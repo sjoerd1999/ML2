@@ -1,0 +1,33 @@
+vocabulary size: 85
+n tunes: 2368
+n train tunes: 2240
+n validation tunes: 128
+min, max length 38 1047
+Train model
+Embedding shape (64, ?, 85)
+RNN output shape (64, ?, 512)
+Reshape shape (?, 512)
+Dense shape (?, 85)
+0/3500 (epoch 0.000) train_loss=2030.65844727 time/batch=29.84s
+1/3500 (epoch 0.029) train_loss=856.92089844 time/batch=8.97s
+2/3500 (epoch 0.057) train_loss=653.39172363 time/batch=8.60s
+3/3500 (epoch 0.086) train_loss=1312.42602539 time/batch=13.52s
+4/3500 (epoch 0.114) train_loss=1513.10156250 time/batch=46.70s
+5/3500 (epoch 0.143) train_loss=1039.50097656 time/batch=13.34s
+6/3500 (epoch 0.171) train_loss=535.23791504 time/batch=6.37s
+Traceback (most recent call last):
+  File "train_rnn.py", line 143, in <module>
+    prob_dropout: config.dropout})
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 929, in run
+    run_metadata_ptr)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1328, in _do_run
+    run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1334, in _do_call
+    return fn(*args)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt

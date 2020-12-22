@@ -1,0 +1,94 @@
+vocabulary size: 73
+n tunes: 125
+n train tunes: 61
+n validation tunes: 64
+min, max length 51 701
+Train model
+Embedding shape (64, ?, 73)
+RNN output shape (64, ?, 512)
+Reshape shape (?, 512)
+Dense shape (?, 73)
+  saved to metadata
+setting learning rate to 0.0029100
+setting learning rate to 0.0028227
+setting learning rate to 0.0027380
+setting learning rate to 0.0026559
+setting learning rate to 0.0025762
+setting learning rate to 0.0024989
+setting learning rate to 0.0024239
+setting learning rate to 0.0023512
+setting learning rate to 0.0022807
+setting learning rate to 0.0022123
+setting learning rate to 0.0021459
+setting learning rate to 0.0020815
+setting learning rate to 0.0020191
+setting learning rate to 0.0019585
+setting learning rate to 0.0018998
+setting learning rate to 0.0018428
+setting learning rate to 0.0017875
+setting learning rate to 0.0017339
+setting learning rate to 0.0016818
+  saved to metadata
+setting learning rate to 0.0016314
+setting learning rate to 0.0015824
+setting learning rate to 0.0015350
+setting learning rate to 0.0014889
+setting learning rate to 0.0014443
+setting learning rate to 0.0014009
+setting learning rate to 0.0013589
+setting learning rate to 0.0013181
+setting learning rate to 0.0012786
+setting learning rate to 0.0012402
+setting learning rate to 0.0012030
+setting learning rate to 0.0011669
+setting learning rate to 0.0011319
+setting learning rate to 0.0010980
+setting learning rate to 0.0010650
+setting learning rate to 0.0010331
+setting learning rate to 0.0010021
+setting learning rate to 0.0009720
+setting learning rate to 0.0009429
+setting learning rate to 0.0009146
+  saved to metadata
+setting learning rate to 0.0008871
+setting learning rate to 0.0008605
+setting learning rate to 0.0008347
+setting learning rate to 0.0008097
+setting learning rate to 0.0007854
+setting learning rate to 0.0007618
+setting learning rate to 0.0007390
+setting learning rate to 0.0007168
+setting learning rate to 0.0006953
+setting learning rate to 0.0006744
+setting learning rate to 0.0006542
+setting learning rate to 0.0006346
+setting learning rate to 0.0006155
+setting learning rate to 0.0005971
+setting learning rate to 0.0005792
+setting learning rate to 0.0005618
+setting learning rate to 0.0005449
+setting learning rate to 0.0005286
+setting learning rate to 0.0005127
+setting learning rate to 0.0004973
+  saved to metadata
+setting learning rate to 0.0004824
+setting learning rate to 0.0004679
+setting learning rate to 0.0004539
+setting learning rate to 0.0004403
+setting learning rate to 0.0004271
+setting learning rate to 0.0004143
+setting learning rate to 0.0004018
+setting learning rate to 0.0003898
+setting learning rate to 0.0003781
+setting learning rate to 0.0003668
+setting learning rate to 0.0003557
+setting learning rate to 0.0003451
+setting learning rate to 0.0003347
+setting learning rate to 0.0003247
+setting learning rate to 0.0003149
+setting learning rate to 0.0003055
+setting learning rate to 0.0002963
+setting learning rate to 0.0002874
+setting learning rate to 0.0002788
+setting learning rate to 0.0002705
+  saved to metadata

@@ -1,0 +1,64 @@
+vocabulary size: 104
+n tunes: 45850
+n train tunes: 43546
+n validation tunes: 2304
+min, max length 37 2112
+Train model
+Embedding shape (64, ?, 104)
+RNN output shape (64, ?, 512)
+Reshape shape (?, 512)
+Dense shape (?, 104)
+0/68040 (epoch 0.000) train_loss=1619.58007812 time/batch=17.08s
+1/68040 (epoch 0.001) train_loss=2240.29907227 time/batch=21.51s
+2/68040 (epoch 0.003) train_loss=2406.29052734 time/batch=25.15s
+3/68040 (epoch 0.004) train_loss=3584.94580078 time/batch=40.57s
+4/68040 (epoch 0.006) train_loss=2618.89746094 time/batch=26.75s
+5/68040 (epoch 0.007) train_loss=1491.07202148 time/batch=14.68s
+6/68040 (epoch 0.009) train_loss=5476.45605469 time/batch=132.75s
+7/68040 (epoch 0.010) train_loss=3872.36621094 time/batch=186.79s
+8/68040 (epoch 0.012) train_loss=1716.89697266 time/batch=18.86s
+9/68040 (epoch 0.013) train_loss=1382.80664062 time/batch=14.45s
+10/68040 (epoch 0.015) train_loss=1024.17285156 time/batch=10.62s
+11/68040 (epoch 0.016) train_loss=1394.16540527 time/batch=15.04s
+12/68040 (epoch 0.018) train_loss=2097.76074219 time/batch=25.85s
+13/68040 (epoch 0.019) train_loss=1962.85644531 time/batch=21.88s
+14/68040 (epoch 0.021) train_loss=1965.99694824 time/batch=20.91s
+15/68040 (epoch 0.022) train_loss=675.34429932 time/batch=6.65s
+16/68040 (epoch 0.024) train_loss=294.25848389 time/batch=3.05s
+17/68040 (epoch 0.025) train_loss=1356.59265137 time/batch=14.10s
+18/68040 (epoch 0.026) train_loss=2825.60473633 time/batch=34.23s
+19/68040 (epoch 0.028) train_loss=2018.34619141 time/batch=24.98s
+20/68040 (epoch 0.029) train_loss=631.40429688 time/batch=6.79s
+21/68040 (epoch 0.031) train_loss=1815.67224121 time/batch=22.95s
+22/68040 (epoch 0.032) train_loss=1304.15112305 time/batch=15.84s
+23/68040 (epoch 0.034) train_loss=1026.64550781 time/batch=12.54s
+24/68040 (epoch 0.035) train_loss=1456.10424805 time/batch=18.35s
+25/68040 (epoch 0.037) train_loss=378.07760620 time/batch=4.61s
+26/68040 (epoch 0.038) train_loss=2691.75219727 time/batch=47.46s
+27/68040 (epoch 0.040) train_loss=2177.54321289 time/batch=28.34s
+28/68040 (epoch 0.041) train_loss=471.19525146 time/batch=5.83s
+29/68040 (epoch 0.043) train_loss=1323.93579102 time/batch=16.94s
+30/68040 (epoch 0.044) train_loss=1598.62841797 time/batch=20.34s
+31/68040 (epoch 0.046) train_loss=925.15521240 time/batch=10.43s
+32/68040 (epoch 0.047) train_loss=1166.71569824 time/batch=14.63s
+33/68040 (epoch 0.049) train_loss=977.75762939 time/batch=10.36s
+34/68040 (epoch 0.050) train_loss=376.79910278 time/batch=4.55s
+35/68040 (epoch 0.051) train_loss=918.45300293 time/batch=10.86s
+36/68040 (epoch 0.053) train_loss=1160.39648438 time/batch=16.02s
+37/68040 (epoch 0.054) train_loss=926.85742188 time/batch=14.82s
+Traceback (most recent call last):
+  File "train_rnn.py", line 143, in <module>
+    prob_dropout: config.dropout})
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 929, in run
+    run_metadata_ptr)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1328, in _do_run
+    run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1334, in _do_call
+    return fn(*args)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt

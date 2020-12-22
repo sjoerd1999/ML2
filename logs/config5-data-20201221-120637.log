@@ -1,0 +1,6 @@
+vocabulary size: 66
+Traceback (most recent call last):
+  File "train_rnn.py", line 68, in <module>
+    valid_idxs = rng.choice(np.arange(ntunes), nvalid_tunes, replace=False)
+  File "mtrand.pyx", line 1168, in mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'

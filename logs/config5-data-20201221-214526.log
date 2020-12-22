@@ -1,0 +1,84 @@
+vocabulary size: 74
+n tunes: 375
+n train tunes: 311
+n validation tunes: 64
+min, max length 44 1047
+Train model
+Embedding shape (64, ?, 74)
+RNN output shape (64, ?, 512)
+Reshape shape (?, 512)
+Dense shape (?, 74)
+[*] Read config5-data-20201221-132359-400
+0/485 (epoch 0.000) train_loss=902.12017822 time/batch=10.48s
+1/485 (epoch 0.206) train_loss=1040.89013672 time/batch=8.72s
+2/485 (epoch 0.412) train_loss=1252.33691406 time/batch=17.50s
+3/485 (epoch 0.617) train_loss=485.16351318 time/batch=6.74s
+4/485 (epoch 0.823) train_loss=451.67987061 time/batch=5.82s
+5/485 (epoch 1.029) train_loss=778.09039307 time/batch=9.17s
+6/485 (epoch 1.235) train_loss=886.99310303 time/batch=13.15s
+7/485 (epoch 1.441) train_loss=507.79244995 time/batch=7.15s
+8/485 (epoch 1.646) train_loss=379.01403809 time/batch=4.96s
+9/485 (epoch 1.852) train_loss=524.34814453 time/batch=6.68s
+10/485 (epoch 2.058) train_loss=1144.94592285 time/batch=46.70s
+11/485 (epoch 2.264) train_loss=512.84265137 time/batch=7.93s
+12/485 (epoch 2.469) train_loss=350.50036621 time/batch=4.80s
+13/485 (epoch 2.675) train_loss=558.38641357 time/batch=7.74s
+14/485 (epoch 2.881) train_loss=770.59277344 time/batch=11.86s
+15/485 (epoch 3.087) train_loss=939.78094482 time/batch=50.98s
+16/485 (epoch 3.293) train_loss=454.22448730 time/batch=6.19s
+17/485 (epoch 3.498) train_loss=344.47549438 time/batch=4.53s
+18/485 (epoch 3.704) train_loss=598.24780273 time/batch=10.14s
+19/485 (epoch 3.910) train_loss=1081.17163086 time/batch=58.05s
+20/485 (epoch 4.116) train_loss=714.31835938 time/batch=12.37s
+21/485 (epoch 4.322) train_loss=458.73699951 time/batch=6.34s
+22/485 (epoch 4.527) train_loss=437.22583008 time/batch=6.88s
+23/485 (epoch 4.733) train_loss=731.55023193 time/batch=19.36s
+24/485 (epoch 4.939) train_loss=592.20220947 time/batch=9.91s
+25/485 (epoch 5.145) train_loss=382.26330566 time/batch=5.26s
+26/485 (epoch 5.350) train_loss=1067.28466797 time/batch=62.79s
+27/485 (epoch 5.556) train_loss=379.64083862 time/batch=8.50s
+28/485 (epoch 5.762) train_loss=360.48947144 time/batch=6.35s
+29/485 (epoch 5.968) train_loss=396.50189209 time/batch=8.11s
+30/485 (epoch 6.174) train_loss=782.46008301 time/batch=16.80s
+31/485 (epoch 6.379) train_loss=903.80041504 time/batch=65.61s
+32/485 (epoch 6.585) train_loss=551.60583496 time/batch=9.57s
+33/485 (epoch 6.791) train_loss=1057.69897461 time/batch=66.96s
+34/485 (epoch 6.997) train_loss=330.02371216 time/batch=6.97s
+35/485 (epoch 7.203) train_loss=427.03021240 time/batch=8.26s
+36/485 (epoch 7.408) train_loss=372.97695923 time/batch=7.69s
+37/485 (epoch 7.614) train_loss=456.29394531 time/batch=8.96s
+38/485 (epoch 7.820) train_loss=913.50164795 time/batch=24.96s
+39/485 (epoch 8.026) train_loss=430.07806396 time/batch=8.98s
+40/485 (epoch 8.232) train_loss=398.82980347 time/batch=6.98s
+41/485 (epoch 8.437) train_loss=785.01586914 time/batch=16.27s
+42/485 (epoch 8.643) train_loss=896.09417725 time/batch=63.16s
+43/485 (epoch 8.849) train_loss=499.71664429 time/batch=9.59s
+44/485 (epoch 9.055) train_loss=360.32958984 time/batch=7.03s
+45/485 (epoch 9.260) train_loss=1053.45874023 time/batch=66.86s
+46/485 (epoch 9.466) train_loss=564.49993896 time/batch=11.61s
+47/485 (epoch 9.672) train_loss=393.27053833 time/batch=8.95s
+48/485 (epoch 9.878) train_loss=428.14016724 time/batch=9.23s
+49/485 (epoch 10.084) train_loss=1059.28881836 time/batch=75.37s
+50/485 (epoch 10.289) train_loss=588.67242432 time/batch=13.28s
+51/485 (epoch 10.495) train_loss=488.40411377 time/batch=13.54s
+52/485 (epoch 10.701) train_loss=650.02996826 time/batch=15.73s
+53/485 (epoch 10.907) train_loss=464.96655273 time/batch=10.52s
+54/485 (epoch 11.113) train_loss=1031.50305176 time/batch=79.93s
+55/485 (epoch 11.318) train_loss=454.23492432 time/batch=14.08s
+56/485 (epoch 11.524) train_loss=393.53689575 time/batch=9.54s
+Traceback (most recent call last):
+  File "train_rnn.py", line 143, in <module>
+    prob_dropout: config.dropout})
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 929, in run
+    run_metadata_ptr)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1328, in _do_run
+    run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1334, in _do_call
+    return fn(*args)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\site-packages\tensorflow\python\client\session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt

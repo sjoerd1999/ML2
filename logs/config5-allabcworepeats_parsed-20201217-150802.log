@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train_rnn.py", line 39, in <module>
+    data = f.read()
+  File "C:\Users\Sjoerd de Jong\anaconda3\envs\tensorFolk\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 244512: character maps to <undefined>
