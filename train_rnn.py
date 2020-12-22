@@ -12,7 +12,7 @@ from graph import build_graph
 
 # if len(sys.argv) < 3:
 #     sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
-
+# commit
 # data preparation
 config_name = "config5"
 data_path = "data/data"
