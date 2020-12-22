@@ -1,0 +1,6 @@
+model_checkpoint_path: "config5-data-20201221-132359-400"
+all_model_checkpoint_paths: "config5-data-20201221-132359-80"
+all_model_checkpoint_paths: "config5-data-20201221-132359-160"
+all_model_checkpoint_paths: "config5-data-20201221-132359-240"
+all_model_checkpoint_paths: "config5-data-20201221-132359-320"
+all_model_checkpoint_paths: "config5-data-20201221-132359-400"
